@@ -5,7 +5,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: lavender;
+
+}
+body{
+    background-color: linear-gradient(173deg, rgba(84, 35, 215, 0.24) -20.49%, rgba(31, 61, 167, 0.00) 93.7%);
 }
 
 main {}
