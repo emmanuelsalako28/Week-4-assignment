@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: lavender;
+}
+
+main {}
+
+.right-imagess {}
+
+.right-imagess img {
+
+    width: 90%;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    margin-top: 7%;
+
+}
+
+.right {
+    margin-left: 50px;
+    width: 50%;
+}
+
+.left h1 {
+  
+    padding: 40px 0px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.google-signup {
+    display: flex;
+    border: 1px groove;
+    width: 70%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: 1px solid /gray;
+}
+
+.google-img {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.google-signup p {
+    width: 60%;
+    font-family: Inter;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 40px;
+    letter-spacing: 0.5px;
+}
+
+form {
+    /* line-height: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+}
+
+form input {
+    display: flex;
+    height: 20px;
+    padding: 17px 17px;
+    align-items: center;
+    gap: 28px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    /* align-self: stretch; */
+
+}
+
+.left button {
+    margin-top: 10px;
+    background-color: #4C14E2;
+    border: 3px solid #4C14E2;
+    border-radius: 5px;
+    padding: 10px 115px;
+    color: white;
+}
+
+.left h3 {
+    margin: 10px 150px;
+
+}
